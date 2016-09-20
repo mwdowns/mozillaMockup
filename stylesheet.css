@@ -1,0 +1,289 @@
+body {
+  margin: 0;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.container-fluid {
+  padding-right: 0;
+}
+
+.header {
+  background-color: #D93A33;
+  height: 10%;
+  width: 100%;
+
+}
+
+.header img {
+  float: left;
+  margin-left: 120px;
+  height: 10%;
+  width: 10%;
+}
+
+ul {
+  list-style: none;
+  float: left;
+  margin-left: 25%;
+}
+
+.header li {
+  display: inline-block;
+  border-right: 1px solid white;
+  color: white;
+  padding: 0 15px;
+  margin-top: 9.5px;
+}
+
+li:nth-child(4) {
+  border-right: none;
+}
+
+.header a {
+  background-color: #4CAF50;
+  padding: 1% 0;
+  margin: 0;
+  float: left;
+  color: white;
+}
+
+#middlePic {
+  background: url("images/background1.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  font-family: "Architects Daughter", cursive;
+  text-align: center;
+  color: #2762A9;
+}
+
+#middlePic h1 {
+  font-size: 4em;
+  padding: 9% 0 9% 0;
+}
+
+#middlePic p {
+  padding: 0 10% 20px 10%;
+  font-size: 2.5em;
+}
+
+/*.background {
+  max-width: 100%;
+}*/
+
+.col1-2 {
+  text-align: center;
+}
+
+#whiteColumn a {
+  text-decoration: underline;
+}
+
+#whiteColumn img {
+  padding: 5% 0;
+  height: 35%;
+  width: 35%;
+}
+
+#tealColumn {
+  background-color: #008B89;
+  color: white;
+}
+
+#tealColumn img {
+  padding: 5% 0;
+  height: 35%;
+  width: 35%;
+}
+
+#tealColumn a {
+  color: white;
+  text-decoration: underline;
+}
+
+#tealColumn p {
+  font-size: 1.05em;
+}
+
+.col1-2 ul {
+  text-align: left;
+}
+
+ul.impact {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.impact li {
+  display: inline-block;
+}
+
+.impact a {
+  margin-left: 30px;
+  text-decoration: underline;
+}
+
+.encrypt {
+  background: url("images/encryption.png");
+}
+
+.teach {
+  background: url("images/teach_the_web.png");
+}
+
+.toolkit {
+  background: url("images/toolkit.png");
+}
+
+.impactExtras {
+  background-size: 50px;
+  background-repeat: no-repeat;
+  padding-left: 70px;
+  padding-bottom: 50px;
+  padding-top: 20px;
+  font-size: 1.2em;
+}
+
+.gaming {
+  background: url("images/gaming.png");
+}
+
+.virtual {
+  background: url("images/vr.png");
+}
+
+.servo {
+  background: url("images/servo.png");
+}
+
+.rust {
+  background: url("images/rust.png");
+}
+
+.innovationExtras {
+  background-size: 50px;
+  background-repeat: no-repeat;
+  padding-left: 70px;
+  padding-bottom: 50px;
+  padding-top: 20px;
+  font-size: 1.2em;
+}
+
+#forestPic {
+  background: url("images/background2.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+}
+
+#forestPic img {
+  height: 10%;
+  width: 10%;
+  padding-top: 4%;
+}
+
+#forestPic p {
+  font-size: 1.5em;
+  padding-top: 30%;
+}
+
+#forestPic a {
+  color: white;
+  text-decoration: underline;
+  font-size: 1.5em;
+}
+
+.triple {
+  text-align: center;
+  padding: 4% 0;
+  background-color: #F5F5F5;
+  color: #484848;
+}
+
+.triple img {
+  height: 35%;
+  width: 35%;
+}
+
+#pitaRow {
+  background-color: #F5F5F5;
+}
+
+#infoRow {
+  background-color: #D93A33;
+  text-align: center;
+  color: white;
+}
+
+#infoRow img {
+  height: 100px;
+  width: 100px;
+  margin-top: 20%;
+}
+
+.pitch {
+  text-align: left;
+  padding-left: 40px;
+}
+
+#infoRow input {
+  width: 270px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#infoRow button {
+  width: 270px;
+  margin-top: 10px;
+  border: 1px solid white;
+  background-color: #D93A33;
+}
+
+#footer {
+  background-color: #666666;
+  color: white;
+}
+
+#footer a {
+  color: #23C7DB;
+}
+
+.legal p {
+  line-height: 5px;
+}
+
+.legal p:first-child {
+  padding-top: 20%;
+}
+
+@media (max-width: 1200px) {
+
+  #whiteColumn ul {
+    float: none;
+    margin-left: 0;
+  }
+
+  #tealColumn ul {
+    float: none;
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+
+  #forestPic p {
+    padding-top: 0;
+    display: none;
+  }
+
+  #infoRow .pitch {
+    text-align: center;
+    padding: 0;
+  }
+
+  #footer {
+    text-align: center;
+  }
+
+  #footer .legal p {
+    line-height: 2px;
+  }
+}
